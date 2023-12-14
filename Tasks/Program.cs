@@ -28,7 +28,7 @@ namespace Tasks
         }
         static async Task MathNumberAsync(int number)
         {
-            Console.WriteLine($"\nКорень числа {number} = {number * number}\n");
+            Console.WriteLine($"\nКвадрат числа {number} = {number * number}\n");
             await Task.Run(() => Factorial(number));
         }
         static void Main()
